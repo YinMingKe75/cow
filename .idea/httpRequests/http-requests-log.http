@@ -1,0 +1,44 @@
+POST http://localhost:8889/test/date
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-21T055638.200.txt
+
+###
+
+POST http://localhost:8889/test/date
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-21T055632.200.txt
+
+###
+
+POST http://localhost:8889/test/date
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-21T055622.200.txt
+
+###
+
+GET http://localhost:8889/test/date
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-21T055557.200.txt
+
+###
+
+GET http:http://localhost:8889/test/date
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http:http://localhost:8889/test/date
+Accept: */*
+Cache-Control: no-cache
+
+###
+
